@@ -7,8 +7,7 @@ mensagemDeErro = alert('Erro! Preencha todos os campos.');
 nomeDoUsuario = prompt('Insira o seu nome de usário: ');
 idadeDoUsuario = prompt('Insira a sua idade: ');
 
-if ()
-if (idadeDoUsuario => 18){
+if (idadeDoUsuario >= 18){
     alert('Pode tirar a habilitação!');
 
 } else{
