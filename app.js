@@ -1,16 +1,42 @@
-alert('Boas vindas ao nosso jogo!');
+//DESAFIO 1
 
-let numeroDeVendas = 50;
-let saldoDisponivel = 1000;
-let mensagemDeErro = alert('Erro! Preencha todos os campos.');
-let nomeDoUsuario = prompt('Insira o seu nome de usário: ');
-let idadeDoUsuario = prompt('Insira a sua idade: ');
+//diaDoUsuario = prompt("Qual dia da semana é hoje?");
 
-if (idadeDoUsuario >= 18) {
-    alert('Pode tirar a habilitação!');
+//if (diaDoUsuario === "sábado") {
+//    alert("Bom fim de semana!");
 
-} else {
-    alert('Infelizmente você ainda não pode tirar a habilitação...');
+//} else{
+//    alert("Boa semana!");
+//}
+
+//if (diaDoUsuario === "domingo") {
+//    alert("Bom fim de semana!");
+//}
+
+//DESAFIO 2
+
+//let numeroUsuario = prompt("Digite um número aleatório");
+
+//if(numeroUsuario >=0) {
+//    alert(`O número ${numeroUsuario} é positivo`);
+//} else{
+//    alert(`O número ${numeroUsuario} é negativo`);
+//}
+
+//DESAFIO 3
+
+alert("A cada ponto você recebe 20 pontos e após 100 pontos você vence!");
+let numeroSecreto = 20;
+let tentativaUsuario = prompt("Tente advinhar qual é o número secreto entre 0 e 100.");
+let pontuacaoUsuario = 0;
+
+if(numeroSecreto === tentativaUsuario) {
+    pontuacaoUsuario += 20;
+    alert('Você acertou! Sua pontuação atual é de:' + pontuacaoUsuario);
+} else{
+    alert('Você errou tente novamente!');
 }
+
+
 
 
